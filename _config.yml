@@ -1,9 +1,9 @@
 # Site settings
-title_left    : "Think"
-title_right   : "space" # default: ""
-description   : "Minimalist Jekyll theme for technical writing blog."
-keywords      : "Jekyll, theme, free, download, SEO, blog, web, minimalist, thinkspace"
-url           : https://heiswayi.github.io/thinkspace # site url
+title_left    : "ross"
+title_right   : "turk" # default: ""
+description   : "Ecosystems, technologies, markets."
+keywords      : "ecosystems, technology, markets, open source, engineering, communities"
+url           : http://text.rtrk.us # site url
 baseurl       : "" # apply repo name like "/myproject" if used under gh-pages branch, else (under master branch) just leave empty/blank
 cover         : "" # image uri like logo/cover image for site seo
 
@@ -28,7 +28,7 @@ sass:
 
 # Author settings
 author:
-  name     : "John Doe"
+  name     : "Ross Turk"
 
 plugins:
   - jekyll-sitemap
@@ -37,9 +37,20 @@ plugins:
 
 # navbar pages
 navbar:
-  - slug : about
-    title: About
-  - slug : blog
-    title: Blog
+  - name: Work
+    link: /work.html
+  - name: Videos
+    link: /videos.html
 
+collections:
+  work:
+    output: true
+    
+defaults:
+  - scope:
+      path: ""
+      type: "work"
+    values:
+      layout: "work"
+  
 exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md", "script"]

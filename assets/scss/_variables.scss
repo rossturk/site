@@ -1,5 +1,30 @@
 // Typography
-@import url('https://fonts.googleapis.com/css?family=Overpass+Mono:400,700');
+@import url('http://fonts.googleapis.com/css?family=Overpass+Mono:400,700');
+@import url('http://fonts.googleapis.com/css?family=Give+You+Glory:400,700');
+@import url('http://fonts.googleapis.com/css?family=UnifrakturCook:400,700');
+@import url('http://fonts.googleapis.com/css?family=Roboto:400,700');
+@import url('http://fonts.googleapis.com/css?family=Monsieur+La+Doulaise:400,700');
+@import url('http://fonts.googleapis.com/css?family=Londrina+Shadow:400,700');
+@import url('http://fonts.googleapis.com/css?family=Ranchers:400,700');
+@import url('http://fonts.googleapis.com/css?family=Ewert:400,700');
+@import url('http://fonts.googleapis.com/css?family=Ribeye:400,700');
+@import url('http://fonts.googleapis.com/css?family=Permanent+Marker:400,700');
+@import url('http://fonts.googleapis.com/css?family=Cabin+Sketch:400,700');
+@import url('http://fonts.googleapis.com/css?family=Vast+Shadow:400,700');
+@import url('http://fonts.googleapis.com/css?family=Wire+One:400,700');
+@import url('http://fonts.googleapis.com/css?family=Graduate:400,700');
+@import url('http://fonts.googleapis.com/css?family=Freckle+Face:400,700');
+@import url('http://fonts.googleapis.com/css?family=Berkshire+Swash:400,700');
+@import url('http://fonts.googleapis.com/css?family=Special+Elite:400,700');
+@import url('http://fonts.googleapis.com/css?family=Raleway+Dots:400,700');
+@import url('http://fonts.googleapis.com/css?family=Loved+by+the+King:400,700');
+@import url('http://fonts.googleapis.com/css?family=Dorsa:400,700');
+@import url('http://fonts.googleapis.com/css?family=Rye:400,700');
+@import url('http://fonts.googleapis.com/css?family=Bonbon:400,700');
+@import url('http://fonts.googleapis.com/css?family=Akronim:400,700');
+@import url('http://fonts.googleapis.com/css?family=VT323:400,700');
+@import url('http://fonts.googleapis.com/css?family=Seaweed+Script:400,700');
+
 $base-font-family: 'Overpass Mono', monospace;
 $heading-font-family: $base-font-family;
 
@@ -19,7 +44,7 @@ $base-z-index: 0;
 // Colors
 $primary-color: #000;
 $action-color: $primary-color;
-$white-color: #fff;
+$white-color: rgb(235,235,235);
 $black-color: #000;
 $blue-color: #0086B3;
 $dark-gray-color: #333;

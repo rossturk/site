@@ -4,6 +4,276 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  <script src="http://code.jquery.com/color/jquery.color-2.1.2.min.js"></script>
+
+  <script language="JavaScript">
+
+  var fonts = [
+    {
+      "font-family" : "Ribeye",
+      "font-size" : "40px",
+      "font-weight" : "normal",
+      "position" : "relative",
+      "top" : "+0px",
+      "text-transform" : "none"
+    },
+    {
+      "font-family" : "Permanent Marker",
+      "font-size" : "40px",
+      "font-weight" : "normal",
+      "position" : "relative",
+      "top" : "+0px",
+      "text-transform" : "none"
+    },
+    {
+      "font-family" : "Cabin Sketch",
+      "font-size" : "50px",
+      "font-weight" : "normal",
+      "position" : "relative",
+      "top" : "+2px",
+      "text-transform" : "none"
+    },
+      {
+      "font-family" : "Vast Shadow",
+      "font-size" : "35px",
+      "font-weight" : "normal",
+      "position" : "relative",
+      "top" : "+0px",
+      "text-transform" : "none"
+    },
+    {
+      "font-family" : "Wire One", 
+      "font-size" : "60px",
+      "font-weight" : "normal",
+      "position" : "relative",
+      "top" : "-0px",
+      "text-transform" : "none"
+    },
+    {
+      "font-family" : "Graduate",
+      "font-size" : "40px",
+      "font-weight" : "normal",
+      "position" : "relative",
+      "top" : "+0px",
+      "text-transform" : "none"
+    },
+    {
+      "font-family" : "Freckle Face",
+      "font-size" : "50px",
+      "font-weight" : "normal",
+      "position" : "relative",
+      "top" : "+0px",
+      "text-transform" : "none"
+    },
+    {
+      "font-family" : "Berkshire Swash",
+      "font-size" : "40px",
+      "font-weight" : "normal",
+      "position" : "relative",
+      "top" : "+0px",
+      "text-transform" : "none"
+    },
+    {
+      "font-family" : "Special Elite",
+      "font-size" : "50px",
+      "font-weight" : "normal",
+      "position" : "relative",
+      "top" : "+7px",
+      "text-transform" : "none"
+    },
+    {
+      "font-family" : "Raleway Dots",
+      "font-size" : "50px",
+      "font-weight" : "normal",
+      "position" : "relative",
+      "top" : "+0px",
+      "text-transform" : "none"
+    },
+    {
+      "font-family" : "Loved by the King",
+      "font-size" : "50px",
+      "font-weight" : "normal",
+      "position" : "relative",
+      "top" : "+3px",
+      "text-transform" : "none"
+    },
+    {
+      "font-family" : "Dorsa", 
+      "font-size" : "50px",
+      "font-weight" : "normal",
+      "position" : "relative",
+      "top" : "+3px",
+      "text-transform" : "uppercase"
+    },
+    {
+      "font-family" : "Rye",
+      "font-size" : "38px",
+      "font-weight" : "normal",
+      "position" : "relative",
+      "top" : "+1px",
+      "text-transform" : "none"
+    },
+    {
+      "font-family" : "Bonbon",
+      "font-size" : "50px",
+      "font-weight" : "normal",
+      "position" : "relative",
+      "top" : "+5px",
+      "text-transform" : "none"
+    },
+    {
+      "font-family" : "Akronim",
+      "font-size" : "50px",
+      "font-weight" : "normal",
+      "position" : "relative",
+      "top" : "+6px",
+      "text-transform" : "none"
+    },
+    {
+      "font-family" : "VT323",
+      "font-size" : "60px",
+      "font-weight" : "normal",
+      "position" : "relative",
+      "top" : "+0px",
+      "text-transform" : "none"
+    },
+    {
+      "font-family" : "Seaweed Script",
+      "font-size" : "50px",
+      "font-weight" : "normal",
+      "position" : "relative",
+      "top" : "+6px",
+      "text-transform" : "none"
+    },
+    {
+      "font-family" : "Give You Glory",
+      "font-size" : "50px",
+      "font-weight" : "normal",
+      "position" : "relative",
+      "top" : "+7px",
+      "text-transform" : "none"
+    },
+    {
+      "font-family" : "UnifrakturCook",
+      "font-size" : "50px",
+      "font-weight" : "700",
+      "position" : "relative",
+      "top" : "+0px",
+      "text-transform" : "none"
+    },		
+    {
+      "font-family" : "Ranchers",
+      "font-size" : "45px",
+      "font-weight" : "normal",
+      "position" : "relative",
+      "top" : "+0px",
+      "right": "-3px",
+      "text-transform" : "uppercase"
+    },
+    {
+      "font-family" : "Monsieur La Doulaise",
+      "font-size" : "55px",
+      "font-weight" : "normal",
+      "position" : "relative",
+      "top" : "+0px",
+      "text-transform" : "none"
+    },
+    {
+      "font-family" : "Londrina Shadow",
+      "font-size" : "50px",
+      "font-weight" : "normal",
+      "position" : "relative",
+      "top" : "+1px",
+      "text-transform" : "uppercase"
+    },
+    {
+      "font-family" : "Ewert",
+      "font-size" : "40px",
+      "font-weight" : "normal",
+      "position" : "relative",
+      "top" : "+0px",
+      "right" : "-1px",
+      "text-transform" : "none"
+    }
+  ];
+
+  $currentFont = 0;
+
+  $glitchCount = 0;
+  $glitchTarget = 0;
+  $glitchSpeed = 0;
+
+  function randomColor($min, $max, $alpha) {
+      return "rgb("+ (Math.floor((Math.random() * ($max-$min)) + 1 ) + $min)+
+          ","+ (Math.floor((Math.random() * ($max-$min)) + 1 ) + $min)+
+          ","+ (Math.floor((Math.random() * ($max-$min)) + 1 ) + $min)+","+$alpha+")";
+  }
+
+  function flickerSubheaderFont() {
+    if ($glitchCount == $glitchTarget) {
+      $("h1.logo").css(fonts[$currentFont]);
+      /* $("h2.category-title").css(fonts[$currentFont]); */
+      
+      if ($currentFont == fonts.length-1) {
+        $currentFont = 0;
+      } else {
+        $currentFont++;
+      }
+
+      $ran_r = Math.floor((Math.random() * 50)+1)+30;
+      $ran_g = Math.floor((Math.random() * 50)+1)+30;
+      $ran_b = Math.floor((Math.random() * 50)+1)+30;
+
+      $headingcolor = jQuery.Color($ran_r,$ran_g,$ran_b,1);
+      $navcolor = jQuery.Color($ran_r*0.7,$ran_g*0.7,$ran_b*0.7,1);
+
+      if ($ran_g > $ran_r && $ran_g > $ran_b) {
+      	$bodycolor = jQuery.Color(265-($ran_r/3),263-($ran_g/4),263-($ran_b/4),1);
+      } else if ($ran_g < $ran_r && $ran_g < $ran_b) {
+      	$bodycolor = jQuery.Color(263-($ran_r/4),265-($ran_g/3),263-($ran_b/4),1);
+      } else {
+      	$bodycolor = jQuery.Color(265-($ran_r/3),265-($ran_g/3),265-($ran_b/3),1);
+      }
+
+      $('.site-header').stop().animate({backgroundColor: $headingcolor}, 200);
+      $('.nav-header').stop().animate({backgroundColor: $navcolor}, 200);
+      $('body').stop().animate({backgroundColor: $bodycolor}, 400);
+      
+      setTimeout("switchSubheaderFont()",Math.floor((Math.random()*1500)+1)+3000);
+
+      $glitchCount = 0;	
+    } else {
+      $('.site-header').stop().animate({backgroundColor: "rgb(35,35,35)"}, 100);
+      $('.nav-header').stop().animate({backgroundColor: "rgb(20,20,20)"}, 100);
+       $('body').stop().animate({backgroundColor: "rgb(235,235,235)"}, 100);  
+
+      $("h1.logo").css(fonts[Math.floor((Math.random()*fonts.length-1)+1)]);
+      /* $("h2.category-title").css(fonts[Math.floor((Math.random()*fonts.length-1)+1)]); */
+
+      $glitchCount++;
+
+      $glitchSpeed = glitchEasing($glitchSpeed);
+
+      setTimeout("flickerSubheaderFont()",$glitchSpeed);
+    }
+  }
+
+  function glitchEasing(t) { return t*1.29 }
+
+  function switchSubheaderFont() {
+    $glitchSpeed = 20;
+    $glitchCount = 0;
+    $glitchTarget = Math.floor((Math.random()*9)+5);
+    flickerSubheaderFont();
+  }
+
+  $(document).ready(function() {       
+    setTimeout("switchSubheaderFont()",Math.floor((Math.random()*300)+1)+200);	
+  });
+
+  </script>
+
   {% assign page_title = '' %}
   {% if page.title == "Home" %}
       {% capture page_title %}
