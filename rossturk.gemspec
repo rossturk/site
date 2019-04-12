@@ -4,7 +4,7 @@ Gem::Specification.new do |spec|
 	spec.authors       = ["Ross Turk"]
 	spec.email         = ["r@rtrk.us"]
 
-	spec.summary       = "Ecosystems, technologies markets"
+	spec.summary       = "Ecosystems, technologies, markets"
 	spec.homepage      = "http://test.rtrk.us"
 	spec.license       = "MIT"
 
