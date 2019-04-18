@@ -212,8 +212,8 @@
 
   function flickerSubheaderFont() {
     if ($glitchCount == $glitchTarget) {
-      $("h1.logo").css(fonts[$currentFont]);
-     
+     /* $("h1.logo").css(fonts[Math.floor((Math.random()+fonts.length-1)+1)]); */
+      
       if ($currentFont == fonts.length-1) {
         $currentFont = 0;
       } else {
