@@ -212,7 +212,7 @@
 
   function flickerSubheaderFont() {
     if ($glitchCount == $glitchTarget) {
-      $("h1.logo").css(fonts[$currentFont]);
+      $("h1.logo").css(fonts[Math.floor((Math.random()*fonts.length-1)+1)]);
      
       if ($currentFont == fonts.length-1) {
         $currentFont = 0;
@@ -239,7 +239,7 @@
       $('.nav-header').stop().animate({backgroundColor: $navcolor}, 200);
       $('body').stop().animate({backgroundColor: $bodycolor}, 400);
       
-      setTimeout("switchSubheaderFont()",Math.floor((Math.random()*1500)+1)+3000);
+      /* setTimeout("switchSubheaderFont()",Math.floor((Math.random()*1500)+1)+3000); */
 
       $glitchCount = 0;	
     } else {
