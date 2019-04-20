@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Ignite talk: Data integration isn't just for massive companies with unlimited time and money"
+title: "Stage: Data integration isn't just for massive companies with unlimited time and money"
 comments: false
 description: "Explaining ETL and data integration technologies to an open source crowd"
 keywords: "dummy content"

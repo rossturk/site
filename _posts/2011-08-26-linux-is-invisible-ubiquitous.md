@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "CNN: At 20, Linux is invisible, ubiquitous"
+title: "Article: At 20, Linux is invisible, ubiquitous (CNN)"
 comments: false
 description: "I am featured in CNN's article about the 20th birthday of Linux"
 keywords: "dummy content"

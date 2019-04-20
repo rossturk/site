@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Keynote: Smarting the dumb pipes"
+title: "Stage: Smarting the dumb pipes"
 comments: false
 description: "I took the main stage at Gluecon to explain to a bunch of developers why they should care about Alcatel-Lucent"
 keywords: "dummy content"

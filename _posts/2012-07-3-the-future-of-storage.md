@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Ignite Talk: The future of storage"
+title: "Stage: The future of storage"
 comments: false
 description: "This was an Ignite talk about Ceph and what makes it so special"
 keywords: "dummy content"

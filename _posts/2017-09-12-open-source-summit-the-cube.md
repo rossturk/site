@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "theCUBE: Open Source Summit"
+title: "Video: Open Source Summit (theCUBE)"
 comments: false
 description: "I appeared as a guest on theCUBE at the Open Source Summit in 2017"
 keywords: "dummy content"

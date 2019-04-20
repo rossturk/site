@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The enduring magic of unix"
+title: "Article: The enduring magic of unix"
 comments: false
 description: "What I loved about Unix as a teenager is still what's best about computers today"
 keywords: "dummy content"

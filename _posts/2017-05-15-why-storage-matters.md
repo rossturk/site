@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Why storage matters for your digital transformation"
+title: "Stage: Why storage matters for your digital transformation"
 comments: false
 description: "On the stage at Red Hat Summit, I talked about why storage is more important to enterprises than they think."
 keywords: "dummy content"

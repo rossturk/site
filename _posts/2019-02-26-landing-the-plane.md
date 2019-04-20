@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Landing the plane"
+title: "Article: Landing the plane"
 comments: false
 description: "Have you ever wondered why they train fighter pilots in gliders?"
 keywords: "dummy content"

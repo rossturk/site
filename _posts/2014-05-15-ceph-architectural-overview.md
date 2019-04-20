@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Talk: Ceph architectural overview"
+title: "Stage: Ceph architectural overview"
 comments: false
 description: "A very quick overview of the Ceph architecture"
 keywords: "dummy content"

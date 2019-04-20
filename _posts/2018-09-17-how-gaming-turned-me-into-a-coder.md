@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How gaming turned me into a coder"
+title: "Article: How gaming turned me into a coder"
 comments: false
 description: "How text-based adventure gaming led to a satisfying career in tech."
 keywords: "mud wizard unix gaming fireball lpmud mudos"
