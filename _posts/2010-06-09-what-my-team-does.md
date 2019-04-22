@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "Video: What is my job?"
+title: "What is my job? A serious video"
 comments: false
 description: "A super weird, short video describing what my team did at Alcatel-Lucent"
 keywords: "dummy content"
+type: "video"
 ---
 
 I was asked to make a video explaining who I was and what my team did. I wanted to make sure that my video was nothing like anyone else's. I don't think anyone looked at it, but I had fun!

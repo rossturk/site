@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "Article: The enduring magic of unix"
+title: "The enduring magic of unix"
 comments: false
 description: "What I loved about Unix as a teenager is still what's best about computers today"
 keywords: "dummy content"
+type: "article"
 ---
 
 In the summer of my 14th year, I needed a new computer.

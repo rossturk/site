@@ -1,7 +1,7 @@
 # Site settings
 title_left    : "ross"
 title_right   : "turk" # default: ""
-description   : "Ecosystems, technologies, markets."
+description   : "On technologies, ecosystems, and markets."
 keywords      : "ecosystems, technology, markets, open source, engineering, communities"
 url           : http://text.rtrk.us # site url
 baseurl       : "" # apply repo name like "/myproject" if used under gh-pages branch, else (under master branch) just leave empty/blank

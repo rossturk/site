@@ -71,7 +71,7 @@ hr {
 
 .site-header {
   margin-bottom: 0px;
-  min-height: 80px;
+  min-height: 120px;
   background-color: #000;
 }
 
@@ -93,13 +93,14 @@ hr {
 
 .logo {
   float: left;
-  margin: 0;
+  margin: 15px 0;
   cursor: pointer;
   letter-spacing: 0.8px;
   font-size: 40px;
   line-height: 28px;
   font-weight: 300;
   opacity: 0.0;
+  color: $light-gray-color;
 
   span {
     font-weight: 700;
@@ -107,12 +108,8 @@ hr {
   }
 }
 
-.logo a {
-  color: $light-gray-color;
-}
-
 .navbar {
-  margin: 0;
+  margin: 0 0 0 4px;
   position: relative;
   padding: 0;
   pointer-events: all;
@@ -124,9 +121,7 @@ hr {
     font-size: 0.8em;
     padding: 0 0 0 $small-spacing;
   }
-  li + li::before {
-    padding: 0 $small-spacing 0 0;
-  }
+
   li img {
     vertical-align: middle;
     position: relative;
@@ -155,7 +150,7 @@ a.nav-link { color: $light-gray-color; }
 a.nav-link:hover { color: #fff }
 
 .category-title {
-  margin: 1em 0 0.5em 0;
+  margin: 1em 0 0.25em 0;
 
   &:first-child {
     margin-top: 0;

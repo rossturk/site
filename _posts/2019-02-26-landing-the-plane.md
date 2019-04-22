@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "Article: Landing the plane"
+title: "Landing the plane"
 comments: false
 description: "Have you ever wondered why they train fighter pilots in gliders?"
 keywords: "dummy content"
+type: "article"
 ---
 
 Ever been on a plane, coming in for a landing, when suddenly something changes?  You hear the whirring noise of control surfaces moving and engines revving back up. You might get that wibbly feeling in the pit of your stomach as g-forces switch polarity. You’re suddenly taking off again. 

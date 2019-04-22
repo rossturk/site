@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "Article: How gaming turned me into a coder"
+title: "How gaming turned me into a coder"
 comments: false
 description: "How text-based adventure gaming led to a satisfying career in tech."
 keywords: "mud wizard unix gaming fireball lpmud mudos"
+type: "article"
 ---
 
 I think the first word I learned to type fast—and I mean really fast—was "fireball."

@@ -1,9 +1,11 @@
 ---
 layout: post
-title: "Stage: Ceph architectural overview"
+title: "Ceph architectural overview"
 comments: false
 description: "A very quick overview of the Ceph architecture"
 keywords: "dummy content"
+type: "talk"
+youtube: "IZ_HDC0seno"
 ---
 
 This was a very fast architectural overview of Ceph, explaining its major parts and why it matters to modern infrastructure operators.

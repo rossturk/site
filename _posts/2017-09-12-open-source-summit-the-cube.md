@@ -1,9 +1,11 @@
 ---
 layout: post
-title: "Video: Open Source Summit (theCUBE)"
+title: "theCUBE: Open Source Summit"
 comments: false
 description: "I appeared as a guest on theCUBE at the Open Source Summit in 2017"
 keywords: "dummy content"
+type: "media"
+youtube: "1ys2-hMXiWs"
 ---
 
 I was interviewed by Stu and John on theCUBE about infrastructure, open source, artificial intelligence, and the future of datacenter infrastructure.

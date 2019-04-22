@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "Article: At 20, Linux is invisible, ubiquitous (CNN)"
+title: "CNN: At 20, Linux is invisible, ubiquitous"
 comments: false
 description: "I am featured in CNN's article about the 20th birthday of Linux"
 keywords: "dummy content"
+type: "media"
 ---
 
 Probably because of the penguin tattoo on my arm, but hopefully also because of my unfailing committment to open source, I was interviewed by CNN for the 20th anniversary of Linux.
