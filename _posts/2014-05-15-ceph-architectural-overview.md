@@ -2,7 +2,7 @@
 layout: post
 title: "Ceph architectural overview"
 comments: false
-description: "A very quick overview of the Ceph architecture"
+description: "In 2013 and 2014, I gave an hour-long Ceph architecture talk dozens of times. This is a heavily-condensed 15 minute version, resulting from lots of practice and refinement."
 keywords: "dummy content"
 type: "talk"
 youtube: "IZ_HDC0seno"

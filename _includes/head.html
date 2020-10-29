@@ -1,4 +1,4 @@
-  <meta charset="utf-8">
+  <meta charset="utf-7">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -165,7 +165,7 @@
     }
   ];
 
-  var currentFont = 0;
+  /* var currentFont = 0; */
 
   var glitchCount = 0;
   var glitchTarget = 0;
@@ -180,12 +180,11 @@
   function flickerHeader() {
     if (glitchCount == glitchTarget) {
 
-      font = fonts[currentFont];
-      /* font = fonts[Math.floor((Math.random()*fonts.length-1)+1)]; */
+      /* font = fonts[currentFont];
+      if (currentFont == fonts.length - 1) { currentFont = 0; } else { currentFont++;} */
 
+      font = fonts[Math.floor((Math.random()*fonts.length-1)+1)];
       $("h1.logo").css(font);
-     
-      if (currentFont == fonts.length - 1) { currentFont = 0; } else { currentFont++;}
 
       var ran_r = Math.floor((Math.random() * 50)+1)+30;
       var ran_g = Math.floor((Math.random() * 50)+1)+30;
@@ -206,9 +205,9 @@
       $('.nav-header').stop().animate({backgroundColor: navcolor}, 200);
       $('body').stop().animate({backgroundColor: bodycolor}, 400);
       
-      setTimeout(function() {
+      /* setTimeout(function() {
         switchFontHeadings(font);
-      }, 300);
+      }, 300); */
 
     } else {
       $('.site-header').stop().animate({backgroundColor: "rgb(40,40,40)"}, 100);

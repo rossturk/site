@@ -2,7 +2,7 @@
 layout: post
 title: "The enduring magic of unix"
 comments: false
-description: "What I loved about Unix as a teenager is still what's best about computers today"
+description: "When I was a teenager, I fell in love with UNIX and the Internet. After 25 years, the design principles and social potential that allured me are still a big part of what I love about computers today."
 keywords: "dummy content"
 type: "article"
 ---

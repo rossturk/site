@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "theCUBE: Open Source Summit"
+title: "theCUBE at Open Source Summit"
 comments: false
-description: "I appeared as a guest on theCUBE at the Open Source Summit in 2017"
+description: "I appeared as a guest on theCUBE at the Open Source Summit in 2017, where we talked about software-defined storage, emerging technologies, and the future of infrastructure."
 keywords: "dummy content"
 type: "media"
 youtube: "1ys2-hMXiWs"

@@ -2,7 +2,7 @@
 layout: post
 title: "What is my job? A serious video"
 comments: false
-description: "A super weird, short video describing what my team did at Alcatel-Lucent"
+description: "I was asked to make a video explaining what my evangelism team did. What I ended up delivering was very, very strange. Serves them right."
 keywords: "dummy content"
 type: "video"
 ---

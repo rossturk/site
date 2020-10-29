@@ -2,7 +2,7 @@
 layout: post
 title: "How gaming turned me into a coder"
 comments: false
-description: "How text-based adventure gaming led to a satisfying career in tech."
+description: "One of the first things I did on the Internet was play MUDs - text-based, multi-player adventure games. Little did I know that they were preparing me for a satisfying career in tech."
 keywords: "mud wizard unix gaming fireball lpmud mudos"
 type: "article"
 ---

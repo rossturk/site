@@ -2,7 +2,7 @@
 layout: post
 title: "Why storage matters for your digital transformation"
 comments: false
-description: "On the stage at Red Hat Summit, I talked about why storage is more important to enterprises than they think."
+description: "2017 was the year of &quot;digital transformation&quot; - especially if you were a marketer. Can you think of a better context for discussion about the strategic importance of storage?"
 keywords: "dummy content"
 type: "talk"
 youtube: "gGPIlu-7r30"

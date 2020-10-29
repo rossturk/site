@@ -2,7 +2,7 @@
 layout: post
 title: "The future of storage"
 comments: false
-description: "This was an Ignite talk about Ceph and what makes it so special"
+description: "I had 5 minutes at Ignite OSCON to share a few quick thoughts on designing and deploying infrastructure that scales infinitely."
 keywords: "dummy content"
 type: "talk"
 youtube: "xRCEHI2pStI"

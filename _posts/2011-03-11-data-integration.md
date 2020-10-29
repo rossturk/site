@@ -2,7 +2,7 @@
 layout: post
 title: "Data integration isn't just for massive companies"
 comments: false
-description: "Explaining ETL and data integration technologies to an open source crowd"
+description: "At an ignite-style evening event I attempted to explain the importance of ETL and data integration to a crowd of rowdy, drunk hackers."
 keywords: "dummy content"
 type: "talk"
 youtube: "JD1UJZ_tkp"

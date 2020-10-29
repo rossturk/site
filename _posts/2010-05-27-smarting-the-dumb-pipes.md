@@ -2,7 +2,7 @@
 layout: post
 title: "Smarting the dumb pipes"
 comments: false
-description: "I took the main stage at Gluecon to explain to a bunch of developers why they should care about Alcatel-Lucent"
+description: "My company sponsored Gluecon and I did the keynote. Most of the time, sponsor keynotes are garbage...but we all got lucky and my corporate handlers took the day off."
 keywords: "dummy content"
 type: "talk"
 youtube: "tjtnmwZXM0c"
